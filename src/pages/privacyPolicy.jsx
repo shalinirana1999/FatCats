@@ -1,6 +1,9 @@
+import { Box } from "@mui/material"
+
 const PrivacyPolicy = () => {
   return (
-    <div>PrivacyPolicy</div>
+    <Box>
+      PrivacyPolicy</Box>
   )
 }
 
