@@ -88,6 +88,7 @@ const PrivacyPolicy = () => {
               Policy has been created with the help of the Privacy Policy
               Generator.
             </p>
+
             <h3>Interpretation and Definitions</h3>
             <h4 id="interpretation">- Interpretation</h4>
             <p>
