@@ -178,7 +178,6 @@ const PrivacyPolicy = () => {
               <li>Phone number</li>
               <li>Address, State, Province, ZIP/Postal code, City</li>
             </ul>
-
             <h4 id="usageData">- Usage Data</h4>
             <p>Usage Data is collected automatically when using the Service.</p>
             <p>
