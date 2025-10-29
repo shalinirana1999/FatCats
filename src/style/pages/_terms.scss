@@ -1,0 +1,53 @@
+.terms {
+  display: flex;
+  padding: 4rem 0;
+  height: calc(100vh - 6.35rem - 6.8rem);
+  overflow: auto;
+  & h2 {
+    margin: 0 0 2rem;
+    font-size: 2.4rem;
+  }
+  &-left {
+    position: fixed;
+    z-index: 1;
+    width: 20rem;
+    & p {
+      margin-bottom: 1.6rem;
+      font-size: 1.6rem;
+      & a {
+        color: var(--black-087);
+        font-weight: 500;
+        &:hover {
+          color: var(--blue-bg);
+        }
+      }
+    }
+  }
+  &-right {
+    width: calc(100% - 30rem);
+    padding-left: 30rem;
+    position: sticky;
+    top: 0rem;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    & h3 {
+      font-size: 1.6rem;
+      margin: 3rem 0 1.4rem;
+    }
+    & ul {
+      padding-left: 2.4rem;
+    }
+    & p,
+    & li {
+      font-size: 1.4rem;
+    }
+    & p {
+      margin-bottom: 1.6rem;
+    }
+    & li {
+      margin-bottom: 0.6rem;
+    }
+  }
+}

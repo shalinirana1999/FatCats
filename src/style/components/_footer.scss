@@ -1,0 +1,16 @@
+.footer {
+  padding: 2rem 0;
+  background: var(--blue-bg);
+  color: var(--white);
+  &-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  &-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}

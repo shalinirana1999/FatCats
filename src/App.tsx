@@ -1,15 +1,17 @@
-import Header from "./components/header";
-import { SpeedInsights } from "@vercel/speed-insights/react";
-import { Analytics } from "@vercel/analytics/react";
+import { BrowserRouter } from "react-router-dom";
+import SiteRoutes from "./routes/index.tsx";
+import "./style/main.scss";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Header />
-      <SpeedInsights />
-      <Analytics />
-    </>
+    // <Provider store={store}>
+    //   <PersistGate loading={null} persistor={persistor}>
+    <BrowserRouter>
+      <SiteRoutes />
+    </BrowserRouter>
+    //   </PersistGate>
+    // </Provider>
   );
-}
+};
 
 export default App;
