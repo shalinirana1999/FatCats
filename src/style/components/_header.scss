@@ -3,4 +3,6 @@
   background: var(--blue-bg);
   color: var(--white);
   font-size: 2rem;
+  position: relative;
+  z-index: 1;
 }
