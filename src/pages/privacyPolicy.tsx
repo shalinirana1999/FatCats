@@ -200,7 +200,6 @@ const PrivacyPolicy = () => {
               You visit Our Service or when You access the Service by or through
               a mobile device.
             </p>
-
             <h4 id="trackingTechnologiesAndCookies">
               - Tracking Technologies and Cookies
             </h4>
