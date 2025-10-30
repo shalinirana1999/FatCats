@@ -293,7 +293,6 @@ const Terms = () => {
               "terrorist supporting" country, and (ii) You are not listed on any
               United States government list of prohibited or restricted parties.
             </p>
-            {/* test */}
             <h3 id="severabilityAndWaiver">Severability and Waiver</h3>
             <h4>- Severability</h4>
             <p>
